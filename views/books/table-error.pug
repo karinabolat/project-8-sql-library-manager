@@ -1,0 +1,6 @@
+if(errors)
+  form(class="error")
+    h2.errors Oooops!
+    ul.errors
+      each error in errors
+        li= error.message
